@@ -1,0 +1,7 @@
+C:\Users\kylel\OneDrive\Desktop\Repos\WinForms_Password_Gen\WinForms_Password_Gen.pdb
+C:\Users\kylel\OneDrive\Desktop\Repos\WinForms_Password_Gen\D3DCompiler_47_cor3.dll
+C:\Users\kylel\OneDrive\Desktop\Repos\WinForms_Password_Gen\PenImc_cor3.dll
+C:\Users\kylel\OneDrive\Desktop\Repos\WinForms_Password_Gen\PresentationNative_cor3.dll
+C:\Users\kylel\OneDrive\Desktop\Repos\WinForms_Password_Gen\vcruntime140_cor3.dll
+C:\Users\kylel\OneDrive\Desktop\Repos\WinForms_Password_Gen\wpfgfx_cor3.dll
+C:\Users\kylel\OneDrive\Desktop\Repos\WinForms_Password_Gen\WinForms_Password_Gen.exe
