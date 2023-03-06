@@ -16,34 +16,37 @@ namespace WinForms_Password_Gen
         private void passwordGenButton_Click(object sender, EventArgs e)
         {
             var randomString = string.Empty;
-            char[] array = "0123456789zxcvbnmasdfghjklqwertyuiopZXCVBNMASDFGHJKLQWERTYUIOP!@#$%^&*()-" .ToCharArray();
-            Random random= new Random();
+            char[] array = "0123456789zxcvbnmasdfghjklqwertyuiopZXCVBNMASDFGHJKLQWERTYUIOP!@#$%^&*()-".ToCharArray();
+            Random random = new Random();
             int getUserNum = Convert.ToInt32(textBox2.Text);
             if (getUserNum < 60)
             {
                 for (int i = 0; i < getUserNum; i++)
                 {
-                int point = random.Next(1, array.Length);
-                if (!randomString.Contains(array.GetValue(point).ToString()))
-                {
-                    randomString += array.GetValue(point);
+                    int point = random.Next(1, array.Length);
+                    if (!randomString.Contains(array.GetValue(point).ToString()))
+                    {
+                        randomString += array.GetValue(point);
+                    }
+                    else
+                        i--;
                 }
-                else
-                    i--;
-                }
-                textBoxResult.Text= randomString;
-           
+                textBoxResult.Text = randomString;
+
                 if (randomString.Length <= 7)
                 {
-                label2.Text = "Not a valid password not suggested";
+                    label2.Text = "Not a valid password not suggested";
+                    label2.BackColor = Color.Red;
                 }
-                if (randomString.Length >= 8 )
+                if (randomString.Length >= 8)
                 {
-                label2.Text = "good password";
-                } 
-                if (randomString.Length >= 15 )
+                    label2.Text = "good password";
+                    label2.BackColor = Color.Yellow;
+                }
+                if (randomString.Length >= 15)
                 {
-                label2.Text = "strong password";
+                    label2.Text = "strong password";
+                    label2.BackColor = Color.Green;
                 }
             }
             if (getUserNum >= 60)
@@ -52,13 +55,9 @@ namespace WinForms_Password_Gen
                 textBox2.Text = "Error";
                 textBoxResult.Text = "Error";
             }
-            
+
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-            
-            
-        }
+
     }
 }

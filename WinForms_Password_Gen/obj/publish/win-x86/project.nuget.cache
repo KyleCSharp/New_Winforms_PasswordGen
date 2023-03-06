@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "9POrOjbDtw9mAys3VwE/nAhg4UGLI7J7C4GR7pOrvBH3bqQR3b4wygRRxXdIadoZEPnfWHbdncMgfWGGwV9ybA==",
+  "dgSpecHash": "1l+cWmZvGerQjIEaGo1IuqGWWmA2+nWLM+Wj6p2GlhPz+S3QRYwfi9KGJ4GHdG1FG6oljJTf6FtpwzB1u0lhew==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kylel\\OneDrive\\Desktop\\Repos\\WinForms_Password_Gen\\WinForms_Password_Gen\\WinForms_Password_Gen.csproj",
+  "projectFilePath": "D:\\repos\\New_Winforms_PasswordGen\\WinForms_Password_Gen\\WinForms_Password_Gen.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\kylel\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\7.0.0\\microsoft.netcore.app.runtime.win-x86.7.0.0.nupkg.sha512",
-    "C:\\Users\\kylel\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\7.0.0\\microsoft.windowsdesktop.app.runtime.win-x86.7.0.0.nupkg.sha512",
-    "C:\\Users\\kylel\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\7.0.0\\microsoft.aspnetcore.app.runtime.win-x86.7.0.0.nupkg.sha512"
+    "C:\\Users\\kylel\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\7.0.3\\microsoft.netcore.app.runtime.win-x86.7.0.3.nupkg.sha512",
+    "C:\\Users\\kylel\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\7.0.3\\microsoft.windowsdesktop.app.runtime.win-x86.7.0.3.nupkg.sha512",
+    "C:\\Users\\kylel\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\7.0.3\\microsoft.aspnetcore.app.runtime.win-x86.7.0.3.nupkg.sha512",
+    "C:\\Users\\kylel\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\7.0.3\\microsoft.netcore.app.crossgen2.win-x64.7.0.3.nupkg.sha512"
   ],
   "logs": []
 }
