@@ -45,7 +45,7 @@
             passwordGenButton.TabIndex = 0;
             passwordGenButton.Text = "Click me :)";
             passwordGenButton.UseVisualStyleBackColor = false;
-            passwordGenButton.Click += passwordGenButton_Click;
+            passwordGenButton.Click += PasswordGenButton_Click;
             // 
             // textBox2
             // 

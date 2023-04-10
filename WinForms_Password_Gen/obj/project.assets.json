@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\repos\\New_Winforms_PasswordGen\\WinForms_Password_Gen\\WinForms_Password_Gen.csproj",
+      "projectUniqueName": "D:\\Repos\\New_Winforms_PasswordGen\\WinForms_Password_Gen\\WinForms_Password_Gen.csproj",
       "projectName": "WinForms_Password_Gen",
-      "projectPath": "D:\\repos\\New_Winforms_PasswordGen\\WinForms_Password_Gen\\WinForms_Password_Gen.csproj",
+      "projectPath": "D:\\Repos\\New_Winforms_PasswordGen\\WinForms_Password_Gen\\WinForms_Password_Gen.csproj",
       "packagesPath": "C:\\Users\\kylel\\.nuget\\packages\\",
-      "outputPath": "D:\\repos\\New_Winforms_PasswordGen\\WinForms_Password_Gen\\obj\\",
+      "outputPath": "D:\\Repos\\New_Winforms_PasswordGen\\WinForms_Password_Gen\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,7 +33,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -70,7 +69,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

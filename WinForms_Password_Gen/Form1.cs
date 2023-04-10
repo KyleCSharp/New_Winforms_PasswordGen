@@ -7,9 +7,9 @@ namespace WinForms_Password_Gen
             InitializeComponent();
         }
 
-        private void passwordGenButton_Click(object sender, EventArgs e)
+        private void PasswordGenButton_Click(object sender, EventArgs e)
         {
-            var randomString = string.Empty;
+            var randomString = "";
             char[] array = "0123456789zxcvbnmasdfghjklqwertyuiopZXCVBNMASDFGHJKLQWERTYUIOP!@#$%^&*()-".ToCharArray();
             Random random = new Random();
             try
@@ -58,13 +58,21 @@ namespace WinForms_Password_Gen
                     textBoxResult.BackColor = Color.Red;
                     textBoxResult.Text = "Error";
                     MessageBox.Show("Please enter valid int :(");
+                    Thread.Sleep(2500);
+                    textBox2.Clear();
+                    textBox2.BackColor = Color.White;
                 }
 
             }
             catch (FormatException)
             {
-
+                label2.BackColor = Color.Red;
+                textBox2.BackColor = Color.Red;
+                textBoxResult.BackColor = Color.Red;
                 MessageBox.Show("Please enter valid int");
+                Thread.Sleep(2500);
+                textBox2.Clear();
+                textBox2.BackColor = Color.White;
             }
 
 
